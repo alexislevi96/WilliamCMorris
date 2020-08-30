@@ -1,0 +1,28 @@
+/* Backgrounds */
+
+.fondoInicial{
+    background-image: url('imagenes/inicial.png');
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+
+    background-color: rgba(0,0,0,1);
+    filter:brightness(1);
+}
+
+.fondoInstitucional{
+    background-image: url('imagenes/institucional.jpg');
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+
+    background-color: rgba(0,0,0,1);
+    filter:brightness(1);
+}
+
+.fondito2{
+    height: 50vh;
+    background: url('https://educacioninicial.mx/wp-content/uploads/2017/06/porque_muerden.jpg');
+    z-index: -1;
+    background-repeat: no-repeat;
+}

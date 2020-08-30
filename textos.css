@@ -19,23 +19,6 @@
     text-shadow: black;
 }
 
-.fondo{
-    background-image: url('https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4qR3Q?ver=5c52&q=60&m=6&h=500&w=1920&b=%23FFFFFFFF&l=f&o=t&x=1440&y=250&aim=true');
-    height: 50vh;
-    background-position: center;
-    background-size: cover;
-
-    background-color: rgba(0,0,0,1);
-    filter:brightness(1);
-}
-
-.fondito2{
-    height: 50vh;
-    background: url('https://educacioninicial.mx/wp-content/uploads/2017/06/porque_muerden.jpg');
-    z-index: -1;
-    background-repeat: no-repeat;
-}
-
 .padd{
     padding-top: 7rem;
 }
