@@ -10,19 +10,33 @@
     filter:brightness(1);
 }
 
-.fondoInstitucional{
-    background-image: url('imagenes/institucional.jpg');
+.fondoGirl{
+    background-image: url('imagenes/girl.jpg');
     height: 50vh;
-    background-position: center;
+    background-position-y: -250px;
     background-size: cover;
 
     background-color: rgba(0,0,0,1);
     filter:brightness(1);
 }
 
-.fondito2{
-    height: 50vh;
-    background: url('https://educacioninicial.mx/wp-content/uploads/2017/06/porque_muerden.jpg');
-    z-index: -1;
-    background-repeat: no-repeat;
+.fondoGirlDos{
+    background-image: url('imagenes/girl.jpg');
+    height: 25vh;
+    background-position-y: -1000px;
+    background-size: cover;
+}
+
+.fondoBible{
+    background-image: url('imagenes/jardin3.jpg');
+    height: 25vh;
+    background-position: top;
+    background-size: cover;
+}
+
+.fondoBibleDos{
+    background-image: url('imagenes/jardin3.jpg');
+    height: 25vh;
+    background-position-y: -750px;
+    background-size: cover;
 }

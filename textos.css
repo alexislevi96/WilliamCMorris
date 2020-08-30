@@ -44,3 +44,7 @@ h1 {
     font-size: 1.5em;
   }
 }
+
+.linea-azul{
+    border: 1px solid blue;
+}
