@@ -206,3 +206,7 @@ body {
   color:#007bff;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
