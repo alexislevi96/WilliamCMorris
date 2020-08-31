@@ -1,13 +1,13 @@
 /* Backgrounds */
 
 .fondoInicial{
-    background-image: url('imagenes/inicial.png');
+    background-image: url('imagenes/jardin3.jpg');
     height: 50vh;
-    background-position: center;
+    background-position: top;
     background-size: cover;
 
     background-color: rgba(0,0,0,1);
-    filter:brightness(1);
+    /* filter:brightness(1); */
 }
 
 .fondoGirl{
@@ -38,5 +38,76 @@
     background-image: url('imagenes/jardin3.jpg');
     height: 25vh;
     background-position-y: -750px;
+    background-size: cover;
+}
+
+.padding-botones{
+    padding-right: 81px;
+    padding-left: 81px;
+}
+
+.padding-botones2{
+    padding-right: 94px;
+    padding-left: 94px;
+}
+
+.padding-botones3{
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.fondoJardinDos{
+    background-image: url('imagenes/jardin.jpg');
+    height: 25vh;
+    background-position-y: center;
+    background-size: cover;
+}
+
+.fondoJardinTres{
+    background-image: url('imagenes/jardin2.jpg');
+    height: 25vh;
+    background-position-y: center;
+    background-size: cover;
+}
+
+.fondoPrimario{
+    background-image: url('imagenes/school4.jpg');
+    height: 50vh;
+    background-position-y: center;
+    background-size: cover;
+}
+
+.fondoPrimarioDos{
+    background-image: url('imagenes/school2.jpg');
+    height: 25vh;
+    background-position-y: 360px;
+    background-size: cover;
+}
+
+.fondoPrimarioTres{
+    background-image: url('imagenes/school5.jpg');
+    height: 25vh;
+    background-position-y: center;
+    background-size: cover;
+}
+
+.fondoSecundario{
+    background-image: url('imagenes/study.jpg');
+    height: 50vh;
+    background-position-y: center;
+    background-size: cover;
+}
+
+.fondoSecundarioDos{
+    background-image: url('imagenes/school6.jpg');
+    height: 25vh;
+    background-position-y: bottom;
+    background-size: cover;
+}
+
+.fondoSecundarioTres{
+    background-image: url('imagenes/school5.jpg');
+    height: 25vh;
+    background-position-y: center;
     background-size: cover;
 }
