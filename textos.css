@@ -5,6 +5,11 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.texto2{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 .texto-btn{
     font-size: 20px;
 }
@@ -17,6 +22,10 @@
     font-family: 'Roboto', sans-serif;
     color: black;
     text-shadow: black;
+}
+
+.shadowTitulo{
+    text-shadow: 2px 2px 2px black;
 }
 
 .padd{
@@ -43,4 +52,8 @@ h1 {
 h1 {
     font-size: 1.5em;
   }
+}
+
+.linea-azul{
+    border: 1px solid blue;
 }
