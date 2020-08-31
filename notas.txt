@@ -1,0 +1,2 @@
+-Mudar todo con Ajax: para cargar contenido sobre una misma pagina y
+dejar las cosas que se quiere, como el footer
