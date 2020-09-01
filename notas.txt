@@ -1,0 +1,7 @@
+//Tareas Faltantes
+-Mudar cosas con Ajax: para cargar contenido sobre una misma pagina y
+dejar las cosas que se quiere, como el footer. OJO ver donde es necesario
+-Agregar iconos de ubicacion, instagram, facebook y youtube.
+-IMPORTANTE: linkear la caja de contacto con el mail del colegio.
+-Arreglar los botones de los niveles
+-Ver que se retraiga el boton cuando este para celulares
