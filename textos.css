@@ -20,8 +20,8 @@
 
 .titulos{
     font-family: 'Roboto', sans-serif;
-    color: black;
-    text-shadow: black;
+    font-size: 50px !important;
+    text-shadow: 1px 1px 1px black;
 }
 
 .shadowTitulo{
@@ -51,7 +51,11 @@ h1 {
 @media screen and (max-width: 30em){
 h1 {
     font-size: 1.5em;
+    padding-top: 60px;
   }
+h2 {
+    font-size: 1.5em;
+}
 }
 
 .linea-azul{

@@ -18,6 +18,7 @@
       <!-- Bootstrap core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="carousel.css" rel="stylesheet">
+  <link rel="stylesheet" href="textos.css">
   <link rel="stylesheet" href="fondos.css">
     
     <!-- Custom styles for this template -->
@@ -25,7 +26,7 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-primary">
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top colorInstitucional">
         <div>
           <img src="imagenes/LOGO.png" class=" rounded-circle img-responsive navbar_logo ">
           <a class="navbar-brand font-weight-light pt-2 mr-5"  href="#">William C. Morris</a>
@@ -46,7 +47,7 @@
                 <a class=" mr-2 nav-link dropdown-toggle btn-new btn-new-1" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="false" aria-expanded="false">
                   Niveles
                 </a>
-                <div class="dropdown-menu bg-primary " aria-labelledby="dropdownMenuButton">
+                <div class="dropdown-menu colorInstitucional " aria-labelledby="dropdownMenuButton">
                   <a class="dropdown-item lead btn-new btn-new-1" href="inicial.html">Inicial</a>
                   <a class="dropdown-item lead btn-new btn-new-1" href="primario.html">Primario</a>
                   <a class="dropdown-item lead btn-new btn-new-1" href="nivel-medio.html">Secundario</a>
@@ -56,6 +57,14 @@
             </li>
             <li class="nav-item ">
               <a class="mr-2 nav-link text-white btn-new btn-new-1 scroll-contact" >Contacto</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav mr-auto nav">
+            <li class="nav-item">
+              <a class="mr-2 nav-link btn-new btn-new-1" href="http://deiocba.dyndns.tv:8081/SAG/LogIn.aspx?ReturnUrl=%2fSAG%2fMain.aspx" target="_blank">Cuenta Corriente</a>
+            </li>
+            <li class="nav-item">
+              <a class="mr-2 nav-link btn-new btn-new-1" href="https://colegiowilliamcmorris.com/personal/login/index.php">Personal</a>
             </li>
           </ul>
         </div>
@@ -74,12 +83,12 @@
       <!-- IMAGEN 1 /////////////// -->
       <!-- probar la url en css -->
       <div class="carousel-item active" data-interval="3000">
-        <div class="carousel-item-fondogrey" style="background-image: url('imagenes/escuela.jpg');"></div>
+        <div class="carousel-item-fondoSolid" style="background-image: url('imagenes/carrusel1.jpg');"></div>
         <div class="container">
-            <div class="carousel-caption text-left">
-              <h1>Example headline.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary " href="#" role="button">Sign up today</a></p>
+            <div class="carousel-caption">
+              <h1 class="pl-5 mt-5 text-left">Pre-Inscripciones <br>2021</h1>
+              <h2>Abiertas a partir del <br> 1 de Septiembre 2020</h2>
+              <p><a class="btn btn-lg btn-danger text-center" href="inicial.html" role="button">Ver más</a></p>
             </div>
         </div>
       </div>
@@ -88,9 +97,9 @@
         <div class="carousel-item-fondogrey" style="background-image: url('imagenes/niños.jpg');"></div>
         <div class="container">
             <div class="carousel-caption">
-              <h1>Another example headline.</h1>
+              <h1>Proximas Noticias</h1>
               <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Ver más</a></p>
             </div>
         </div>
       </div>
@@ -99,9 +108,9 @@
         <div class="carousel-item-fondogrey" style="background-image: url('imagenes/adultos.jpg');"></div>
         <div class="container">
           <div class="carousel-caption text-right">
-            <h1>One more for good measure.</h1>
+            <h1>Proximo Evento</h1>
             <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-            <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+            <p><a class="btn btn-lg btn-primary" href="#" role="button">Ver más</a></p>
           </div>
         </div>
       </div>
@@ -117,10 +126,6 @@
   </div>
 
 
-  <!-- Marketing messaging and featurettes
-  ================================================== -->
-  <!-- Wrap the rest of the page in another container to center all the content. -->
-
   <div class="container marketing">
 
     <!-- 4 FOTOS Carrdssss /////////////// -->
@@ -129,36 +134,36 @@
         <img src="imagenes/nenejardin.jpg" class="mx-auto rounded-circle foto-tarjet" width="200" height="200" background="#777" color="#777" alt="">
         <h2 class="py-4">Inicial</h2>
         <p>La etapa de la primera infancia en el niño constituye una experiencia única que lo formará para toda la vida. Además de  brindar conocimientos y aprendizajes integrados,  nos basamos  en la formación en valores cristianos. Contamos  con secciones de 3, 4 y 5 años, en los turnos mañana y tarde.</p>
-        <p><a class="btn btn-primary mb-5" href="#" role="button">Ver más</a></p>
+        <p><a class="btn btn-danger mb-5" href="inicial.html" role="button">Ver más</a></p>
       </div>
       <div class="col-lg-3 col-md-6 text-center">
         <img src="imagenes/niñaretrato.jpg" class="mx-auto rounded-circle foto-tarjet" width="200" height="200" background="#777" color="#777" alt="">
         <h2 class="py-4">Primario</h2>
         <p>La propuesta educativa se basa fundamentalmente  en la educación en valores cristianos, como contenido transversal de todos los espacios curriculares, y se compromete con nuestra comunidad a realizar una labor de excelencia también en el área pedagógica.</p>
-        <p><a class="btn btn-primary mb-5" href="#" role="button">Ver más</a></p>
+        <p><a class="btn btn-danger mb-5" href="primario.html" role="button">Ver más</a></p>
       </div>
       <div class="col-lg-3 col-md-6 text-center">
         <img src="imagenes/adolescentesecundaria.jpg" class="mx-auto rounded-circle foto-tarjet" width="200" height="200" background="#777" color="#777" alt="">
         <h2 class="py-4">Secundario</h2>
         <p>Pretende dar una educación integral, formar alumnos con valores y actitudes  trascendentales y personas creadoras. Es preciso salvaguardar todo un mundo de valores frente a una civilización industrial que degrada, tritura y aplasta por doquier lo que es verdaderamente humano.</p>
-        <p><a class="btn btn-primary mb-5" href="#" role="button">Ver más</a></p>
+        <p><a class="btn btn-danger mb-5" href="nivel-medio.html" role="button">Ver más</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-3 col-md-6 text-center">
         <img src="imagenes/adultocolegio.jpg" class="mx-auto rounded-circle foto-tarjet" width="200" height="200" background="#777" color="#777" alt="">
         <h2 class="pt-2">Secundario acelerado</h2>
         <p>Fomentamos saberes, interacción con el entorno, desarrollo personal en todas sus dimensiones: psíquicas, sociales, espirituales, contando para ello con personal especializado de vasta experiencia, favoreciendo de esta manera, la proyección hacia el campo laboral y/o académico.</p>
-        <p><a class="btn btn-primary mb-5" href="#" role="button">Ver más</a></p>
+        <p><a class="btn btn-danger mb-5" href="#" role="button">Ver más</a></p>
       </div><!-- /.col-lg-4 -->
     </div><!-- /.row -->
 
 
-    <!-- START THE FEATURETTES -->
+    <!-- EMPIEZA LAS SECCIONES -->
 
     <hr class="featurette-divider">
 
     <div class="row featurette">
       <div class="col-md-7">
-        <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
+        <h2 class="featurette-heading">Ideario Institucional</h2>
         <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
         <p><a class="btn btn-lg btn-primary " href="#" role="button">Ver mas</a></p>
       </div>
@@ -171,7 +176,7 @@
 
     <div class="row featurette">
       <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
+        <h2 class="featurette-heading">Historia</h2>
         <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
         <p><a class="btn btn-lg btn-primary " href="#" role="button">Ver mas</a></p>
       </div>
@@ -184,7 +189,7 @@
 
     <div class="row featurette">
       <div class="col-md-7">
-        <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+        <h2 class="featurette-heading">Quienes somos</h2>
         <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
         <p><a class="btn btn-lg btn-primary " href="#" role="button">Ver mas</a></p>
       </div>
@@ -195,8 +200,8 @@
 
     <hr class="featurette-divider">
 
-    <!-- /END THE FEATURETTES -->
-    <!-- CONTACT /////////////////// -->
+    <!-- /TERMINA LAS SECCIONES -->
+    <!-- CONTACTO /////////////////// -->
     <div class="container contact" id="">
       <div class="row contact-form">
         <div class="col ">
@@ -240,14 +245,19 @@
     <div class="maps pb-5">
       <iframe width="100%" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1255.9409506976292!2d-64.19749431305591!3d-31.413966943739172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943298803e432e59%3A0xa313d7712939b91e!2sColegio%20Cristiano%20Evang%C3%A9lico%20William%20C.%20Morris!5e0!3m2!1ses-419!2sar!4v1598647379915!5m2!1ses-419!2sar" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
     </div>
-
   </div><!-- /.container -->
 
+  <div class="container text-center">
+    <a href="https://www.instagram.com/colegiowilliamcmorris/" target="_blank" class="mb-5 mx-3"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#103A87" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a>
+    <a href="https://www.facebook.com/colegiowilliamcmorris/" target="_blank" class="mb-5 mx-3"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#103A87" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-facebook"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a>
+    <a href="https://www.youtube.com/channel/UC1CrFtJJg9E4j9j2qcncI3Q" target="_blank" class="mb-5 mx-3"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#103A87" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-youtube"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon></svg></a>
+    <a class="scroll-contact mb-5 mx-3" href=""><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#103A87" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg></a>
+  </div>
 
   <!-- FOOTER -->
   <footer class="container">
-    <p class="float-right"><a href="#">Back to top</a></p>
-    <p>&copy; 2017-2020 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    <p class="float-right"><a href="#">Volver arriba</a></p>
+    <p>&copy; 2020 William C. Morris, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
   </footer>
 </main>
 <script>
