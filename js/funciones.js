@@ -1,16 +1,21 @@
-// Funcion que cambia de pagina al index desde institucional
-// document.querySelector(".form-contact")
-//     .addEventListener('click',()=>{
-//         window.location.href = 'index.html';
-//     });
+const contact = document.querySelector(".contact");
 
+//Boton Contact
 document.querySelector(".scroll-contact")
-    .addEventListener("click", scrollContact,true);
+    .addEventListener("click", function(){scroll(contact,-80)},true);
     
-//Contemplar el anchor de la barra nav, para que se vea el texto de contacto
-function scrollContact(e){
-    document.querySelector(".contact").scrollIntoView(true);
+//Pasas el div o elemento que queres scrollear y el offset para contemplar la barra, etc
+function scroll(element, offset){
+    const yCoordinate = element.getBoundingClientRect().top + window.pageYOffset;
+    const yOffset = offset; 
+
+    window.scrollTo({
+        top: yCoordinate + yOffset,
+        behavior: 'smooth'
+    });  
 }
+
+
 
 // function gotoContact(){ 
 //     // window.location.href = 'index.html';
