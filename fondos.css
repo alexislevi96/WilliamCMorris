@@ -5,8 +5,24 @@
     height: 50vh;
     background-position: top;
     background-size: cover;
+}
 
-    background-color: rgba(0,0,0,1);
+.fotoUno{
+    background-image: url('imagenes/chicoSentado.jpg');
+    height: 50vh;
+    background-size: cover;
+}
+
+.fotoDos{
+    background-image: url('imagenes/williamMorris.jpg');
+    height: 50vh;
+    background-size: cover;
+}
+.fotoTres{
+    background-image: url('imagenes/chicalibreria.jpg');
+    height: 75vh;
+    background-size: cover;
+
     /* filter:brightness(1); */
 }
 
@@ -47,13 +63,18 @@
 }
 
 .padding-botones2{
-    padding-right: 94px;
-    padding-left: 94px;
+    padding-right: 90px;
+    padding-left: 90px;
 }
 
 .padding-botones3{
     padding-right: 40px;
     padding-left: 40px;
+}
+
+.padding-botones4{
+    padding-right: 122px;
+    padding-left: 122px;
 }
 
 .fondoJardinDos{

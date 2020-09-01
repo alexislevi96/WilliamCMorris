@@ -57,3 +57,15 @@ h1 {
 .linea-azul{
     border: 1px solid blue;
 }
+@media screen and (min-width: 30em){
+    .ajusteResponsive {
+        height: 75%;
+        }
+    }
+
+@media screen and (max-width: 30em){
+    .ajusteResponsive {
+        height: 25%;
+      }
+    }
+
