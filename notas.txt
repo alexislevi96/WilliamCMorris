@@ -5,3 +5,5 @@ dejar las cosas que se quiere, como el footer. OJO ver donde es necesario
 -IMPORTANTE: linkear la caja de contacto con el mail del colegio.
 -Arreglar los botones de los niveles
 -Ver que se retraiga el boton cuando este para celulares
+-Modularizar la nav para todos los html
+-IMPORTANTE: Faltan numeros de telefono, e icono de wsp
