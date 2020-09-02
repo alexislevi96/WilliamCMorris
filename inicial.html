@@ -71,8 +71,8 @@
       </div>
       <div class="container h-25 text-center pt-5">
         <a class="btn btn-primary mx-1 my-1 btnPertenecientes" id="">Alumnos pertenecientes a la institución</a>
-        <a href="#nuevosIngresantes" class="btn btn-primary mx-1 my-1 padding-botones">Nuevos ingresantes</a>
-        <a href="#documentacion" class="btn btn-primary mx-1 my-1 padding-botones2">Documentación</a>
+        <a class="btn btn-primary mx-1 my-1 padding-botones btnIngresantes">Nuevos ingresantes</a>
+        <a class="btn btn-primary mx-1 my-1 padding-botones2 btnDocumentacion">Documentación</a>
       </div> 
     </div>
     <!-- Fin cabecera -->
@@ -120,8 +120,8 @@
     <div class="container-fluid fondoJardinDos pt-5" id="nuevosIngresantes"> </div> <!-- Separador -->
 
     <!-- Segundo Apartado Nuevos Ingresantes -->
-    <div class="container pt-5">
-      <h2 class="texto-center">Nuevos ingresantes</h2>
+    <div class="container pt-5 nuevosIngresantes">
+      <h2 class="texto-center ">Nuevos ingresantes</h2>
       <hr class="linea-azul" width="50%">
       <p class="text-left texto2"><b>Requisitos</b></p>
       <h4 class="text-center pb-4">a. OFERTA DEL CENTRO EDUCATIVO: </h4>
@@ -154,11 +154,11 @@
     <div class="container-fluid fondoJardinTres pt-5" id="documentacion"> </div> <!-- Separador -->
 
     <!-- Tercer apartado Documentacion -->
-    <div class="container pt-5">
+    <div class="container pt-5 documentacion">
       <h2 class="texto-center">Información acreditativa necesaria para completar el formulario Online</h2>
       <hr class="linea-azul" width="50%">
 
-      <p class="text-left texto2 pt-5">Completar el formulario online de pre-inscripción.</p> <hr>
+      <p class="text-left texto2">Completar el formulario online de pre-inscripción.</p> <hr>
       <p class="text-left texto2">Fotocopia del DNI del niño, de ambos lados. (Tener 3, 4 o 5 años ‘’según corresponda’’ cumplidos al 30 de Junio de 2021.)</p> <hr>
       <p class="text-left texto2">Fotocopia del DNI de los padres o tutor, de ambos lados.</p> <hr>
       <p class="text-left texto2">Fotocopia del informe completo de Guardería o Jardín (si asistió a sala de 3 o 4 años)</p> <hr>
@@ -176,9 +176,8 @@
 
 </body> 
 
-<script src="./js/funciones.js"></script>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-      <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="js/bootstrap.bundle.min.js"></script>
-      <script src="js/funciones.js"></script>
-      <script src="js/inicial.js"></script>
+<script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="js/bootstrap.bundle.min.js"></script>
+<script src="./js/funciones.js"></script>
+<script src="js/inicial.js"></script>
 </html>

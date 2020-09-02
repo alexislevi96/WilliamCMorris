@@ -9,7 +9,3 @@ function scroll(element, offset){
     });  
 }
 
-// function gotoContact(){ 
-//     // window.location.href = 'index.html';
-//     console.log(window.location);
-// }
