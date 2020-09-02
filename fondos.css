@@ -1,7 +1,7 @@
 /* Backgrounds */
 
 .fondoInicial{
-    background-image: url('imagenes/jardin3.jpg');
+    background-image: url('imagenes/jardinModif3.jpg');
     height: 50vh;
     background-position: top;
     background-size: cover;
@@ -29,7 +29,8 @@
 .fondoGirl{
     background-image: url('imagenes/girl.jpg');
     height: 50vh;
-    background-position-y: -250px;
+    background-position-y: center;
+    background-position-x: right;
     background-size: cover;
 
     background-color: rgba(0,0,0,1);
@@ -39,21 +40,21 @@
 .fondoGirlDos{
     background-image: url('imagenes/girl.jpg');
     height: 25vh;
-    background-position-y: -1000px;
+    background-position-y: center;
     background-size: cover;
 }
 
 .fondoBible{
-    background-image: url('imagenes/jardin3.jpg');
+    background-image: url('imagenes/jardinModif3.jpg');
     height: 25vh;
     background-position: top;
     background-size: cover;
 }
 
 .fondoBibleDos{
-    background-image: url('imagenes/jardin3.jpg');
+    background-image: url('imagenes/jardinModif3.jpg');
     height: 25vh;
-    background-position-y: -750px;
+    background-position-y: center;
     background-size: cover;
 }
 
@@ -78,7 +79,7 @@
 }
 
 .fondoJardinDos{
-    background-image: url('imagenes/jardin.jpg');
+    background-image: url('imagenes/jardinModif.jpg');
     height: 25vh;
     background-position-y: center;
     background-size: cover;
@@ -101,7 +102,7 @@
 .fondoPrimarioDos{
     background-image: url('imagenes/school2.jpg');
     height: 25vh;
-    background-position-y: 360px;
+    background-position-y: center;
     background-size: cover;
 }
 
@@ -131,4 +132,8 @@
     height: 25vh;
     background-position-y: center;
     background-size: cover;
+}
+
+.colorInstitucional{
+    background-color: #103A87;
 }

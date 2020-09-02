@@ -108,13 +108,24 @@ body {
   height: 3rem;
 }
 .color-nav{
-  background: #0F0F54;
+  background: #103A87;
 }
 
 .carousel-item-fondogrey{
   background-color: rgba(0,0,0,0.8);
   filter:brightness(0.4);
   
+  width: 100%;
+  height: 500px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.carousel-item-fondoSolid{
+  background-color: rgba(0,0,0,1);
+  filter:brightness(0.9);
+  background-position-x: center;
   width: 100%;
   height: 500px;
   -webkit-background-size: cover;
@@ -153,7 +164,7 @@ body {
 
 
 .btn-new{
-  border: 1px solid #007bff;
+  border: 1px solid #103A87;
   color: #fff !important;
   background: none;
   padding: 4px 20px;
@@ -172,7 +183,7 @@ body {
 
 .btn-new-1:hover{
   background: #fff;
-  color: #007bff !important;
+  color: #103A87 !important;
 }
 
 .btn-new::before{
@@ -181,7 +192,7 @@ body {
   left: 0;
   width: 100%;
   height: 0%;
-  background: #007bff;
+  background: #103A87;
   z-index: -1;
   transition: 0.8s;
 }
