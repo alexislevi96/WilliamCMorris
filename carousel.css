@@ -221,3 +221,6 @@ html {
   scroll-behavior: smooth;
 }
 
+.staff-witdh{
+  width: 180px !important;
+}

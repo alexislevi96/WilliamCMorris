@@ -7,3 +7,7 @@ dejar las cosas que se quiere, como el footer. OJO ver donde es necesario
 -Ver que se retraiga el boton cuando este para celulares
 -Modularizar la nav para todos los html
 -IMPORTANTE: Faltan numeros de telefono, e icono de wsp
+-Icono de ubicacion que te lleve a un mapa externo
+-Los de staff que te lleve a una ventana nueva
+-Agregar los alt a las imagenes
+-Que los iconos resalten cuando pases por encima
